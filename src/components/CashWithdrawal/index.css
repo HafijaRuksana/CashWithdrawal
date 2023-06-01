@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.cash-withdrawal-app {
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 45px;
+  background-color: #150b3e;
+  border-radius: 12px;
+  width: 350px;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.dp {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #c7d2fe;
+
+  color: #150b3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: #d4d2db;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.balance-details-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 5px;
+}
+.balance-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance-heading {
+  color: #c4c4c4;
+}
+.balance-amount {
+  color: #d4d2db;
+  font-size: 35px;
+}
+.currency-type {
+  color: #c4c4c4;
+  font-size: 15px;
+  text-align: right;
+}
+.action-name {
+  color: #d4d2db;
+  font-size: 25px;
+}
+.action-name-description {
+  color: #c4c4c4;
+}
+.denominations-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
